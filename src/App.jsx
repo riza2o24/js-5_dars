@@ -1,5 +1,6 @@
 import logo from "../../5-darss/src/assets/logo.png"
 import Header from "./components/header/Header"
+import Hero from "./components/hero/Hero"
 
 const nav_menu =[
   {
@@ -31,6 +32,7 @@ function App() {
   return (
     <>
       <Header logo={logo} navLink={nav_menu} nav_btns={btns} />
+      <Hero/>
     </>
   )
 }
