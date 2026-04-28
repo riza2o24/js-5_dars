@@ -18,7 +18,7 @@ function Banner({user, bannerText}) {
         </div>
       </div>
 
-      <div className="w-[2px] h-[125px]" >
+      <div className="w-[2px] h-[125px] bg-[#EEEFF2]" >
 
       </div>
 
