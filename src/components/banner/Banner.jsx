@@ -1,7 +1,7 @@
 
 function Banner({user, bannerText}) {
   return (
-    <div className="flex items-center justify- container">
+    <div className="flex items-center justify-center gap-[200px] container">
         {/* 1 */}
       <div className="flex items-center gap-[35px]">
         <img src={user} alt="user" />
