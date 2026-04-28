@@ -3,6 +3,7 @@ import Header from "./components/header/Header"
 import Hero from "./components/hero/Hero"
 import heroLogo from "../../5-darss/src/assets/qwet.png"
 import Banner from "./components/banner/Banner"
+import user from "../../5-darss/src/assets/user.png"
 
 const nav_menu =[
   {
@@ -55,7 +56,7 @@ function App() {
     <>
       <Header logo={logo} navLink={nav_menu} nav_btns={btns} />
       <Hero text={text} btn={btn} paragrf={paragrf} heroLogo={heroLogo}/>
-      <Banner bannerText={bannerText}/>
+      <Banner bannerText={bannerText} user={user}/>
     </>
   )
 }
