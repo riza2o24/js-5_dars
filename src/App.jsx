@@ -27,12 +27,14 @@ const nav_menu =[
 
 const btns = ["Sign In ", "Sign up"]
 
+const text="Want anything to be easy with LaslesVPN."
+
 function App() {
 
   return (
     <>
       <Header logo={logo} navLink={nav_menu} nav_btns={btns} />
-      <Hero/>
+      <Hero text={text}/>
     </>
   )
 }
