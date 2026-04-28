@@ -1,7 +1,7 @@
 
 function Banner() {
   return (
-    <div className="">
+    <div className="flex items-center justify-between container">
       
     </div>
   )
