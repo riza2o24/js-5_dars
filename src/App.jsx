@@ -11,7 +11,7 @@ import illus from "../../5-darss/src/assets/illus.png"
 import Cartaa from "../../5-darss/src/assets/cartaa.png"
 import Sponsored from "../../5-darss/src/assets/Sponsored.png"
 import Footer from "./components/footer/Footer"
-import image from "../../5-darss/src/assets/image.png"
+import { FaShoppingCart } from "react-icons/fa";
 
 const nav_menu =[
   {

@@ -1,5 +1,6 @@
+import { FaFacebook } from "react-icons/fa"
 
-function Footer({logo, li, ul, text3, paragrf3, image}) {
+function Footer({logo, li, ul, text3, paragrf3, }) {
   return (
     <footer className="flex items-center justify-between container h-[400px] bg-[#F8F8F8]">
         <div>
@@ -7,7 +8,9 @@ function Footer({logo, li, ul, text3, paragrf3, image}) {
 
             <p className="text-[#4F5665] w-[340px] text-[16px] font-[400] mt-[20px] mb-[30px]">{text3}</p>
  
-            <img src={image} alt="image" />
+            <div className="flex items-center gap-[10px]">
+                <FaFacebook />
+            </div>
 
             <p className="text-[#AFB5C0]  text-[16px] font-[400] mt-[20px]">{paragrf3}</p>
 
