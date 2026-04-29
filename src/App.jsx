@@ -4,6 +4,10 @@ import Hero from "./components/hero/Hero"
 import heroLogo from "../../5-darss/src/assets/qwet.png"
 import Banner from "./components/banner/Banner"
 import user from "../../5-darss/src/assets/user.png"
+import Hero2 from "./components/hero2/Hero2"
+import Carta from "./components/carta/Carta"
+import yes from "../../5-darss/src/assets/card.png"
+import illus from "../../5-darss/src/assets/illus"
 
 const nav_menu =[
   {
@@ -50,6 +54,11 @@ const bannerText=[
 
 ]
 
+// hero2
+const hero22="We Provide Many Features You Can Use"
+const hero3="You can explore the features that we provide with fun and have their own functions each feature."
+const hero4="We Provide Many Features You Can Use"
+
 function App() {
 
   return (
@@ -57,6 +66,8 @@ function App() {
       <Header logo={logo} navLink={nav_menu} nav_btns={btns} />
       <Hero text={text} btn={btn} paragrf={paragrf} heroLogo={heroLogo}/>
       <Banner bannerText={bannerText} user={user}/>
+      <Hero2 card={yes} hero22={hero22}  hero22={hero3} hero4={hero4}/>
+      <Carta/>
     </>
   )
 }
