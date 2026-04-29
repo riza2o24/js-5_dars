@@ -1,4 +1,5 @@
-import { FaFacebook } from "react-icons/fa"
+import { FaFacebook, FaTelegram } from "react-icons/fa"
+import { RiInstagramFill } from "react-icons/ri"
 
 function Footer({logo, li, ul, text3, paragrf3, }) {
   return (
@@ -8,8 +9,10 @@ function Footer({logo, li, ul, text3, paragrf3, }) {
 
             <p className="text-[#4F5665] w-[340px] text-[16px] font-[400] mt-[20px] mb-[30px]">{text3}</p>
  
-            <div className="flex items-center gap-[10px]">
-                <FaFacebook />
+            <div className="flex items-center gap-[20px]">
+                <FaFacebook color="#F53838" className="text-[30px] shadow-xl"/>
+                <RiInstagramFill  color="#F53838" className="text-[30px] shadow-xl"/>
+                <FaTelegram color="#F53838" className="text-[30px] shadow-xl"/>
             </div>
 
             <p className="text-[#AFB5C0]  text-[16px] font-[400] mt-[20px]">{paragrf3}</p>

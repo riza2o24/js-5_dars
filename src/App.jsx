@@ -93,7 +93,7 @@ function App() {
       <Banner bannerText={bannerText} user={user}/>
       <Hero2 card={yes} hero22={hero22}  hero3={hero3} hero4={hero4} illus={illus}/>
       <Carta Cartaa={Cartaa} Sponsored={Sponsored} text2={text2} paragrf2={paragrf2}/>
-      <Footer logo={logo} text3={text3} paragrf3={paragrf3} ul={ul} li={li} image={image}/>
+      <Footer logo={logo} text3={text3} paragrf3={paragrf3} ul={ul} li={li} />
     </>
   )
 }
