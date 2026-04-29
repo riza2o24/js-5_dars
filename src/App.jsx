@@ -11,6 +11,7 @@ import illus from "../../5-darss/src/assets/illus.png"
 import Cartaa from "../../5-darss/src/assets/cartaa.png"
 import Sponsored from "../../5-darss/src/assets/Sponsored.png"
 import Footer from "./components/footer/Footer"
+import image from "../../5-darss/src/assets/image.png"
 
 const nav_menu =[
   {
@@ -92,7 +93,7 @@ function App() {
       <Banner bannerText={bannerText} user={user}/>
       <Hero2 card={yes} hero22={hero22}  hero3={hero3} hero4={hero4} illus={illus}/>
       <Carta Cartaa={Cartaa} Sponsored={Sponsored} text2={text2} paragrf2={paragrf2}/>
-      <Footer logo={logo} text3={text3} paragrf3={paragrf3} ul={ul} li={li}/>
+      <Footer logo={logo} text3={text3} paragrf3={paragrf3} ul={ul} li={li} image={image}/>
     </>
   )
 }

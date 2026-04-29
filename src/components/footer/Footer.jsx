@@ -1,9 +1,46 @@
 
-function Footer() {
+function Footer({logo, li, ul, text3, paragrf3, image}) {
   return (
-    <div>
-      
-    </div>
+    <footer className="flex items-center justify-between container h-[400px] bg-[#F8F8F8]">
+        <div>
+            <img src={logo} className="w-[149px]" alt="logo" />
+
+            <p className="text-[#4F5665] w-[340px] text-[16px] font-[400] mt-[20px] mb-[30px]">{text3}</p>
+ 
+            <img src={image} alt="image" />
+
+            <p className="text-[#AFB5C0]  text-[16px] font-[400] mt-[20px]">{paragrf3}</p>
+
+        </div>
+
+        <ul>
+            <li className="text-[#0B132A]  text-[18px] mb-[10px] font-500] ">{ul}</li>
+            {li.map((item , index) => (
+                <li className="text-[#4F5665]  text-[16px] mt-[10px] font-400] " key={index}>{item.textsa}</li>
+            ))
+
+            }
+        </ul>
+
+        <ul>
+            <li className="text-[#0B132A]  text-[18px] mb-[10px] font-500] ">{ul}</li>
+            {li.map((item , index) => (
+                <li className="text-[#4F5665]  text-[16px] mt-[10px] font-400] " key={index}>{item.textsa}</li>
+            ))
+
+            }
+        </ul>
+
+        <ul>
+            <li className="text-[#0B132A]  text-[18px] mb-[10px] font-500] ">{ul}</li>
+            {li.map((item , index) => (
+                <li className="text-[#4F5665]  text-[16px] mt-[10px] font-400] " key={index}>{item.textsa}</li>
+            ))
+
+            }
+        </ul>
+
+    </footer>
   )
 }
 
