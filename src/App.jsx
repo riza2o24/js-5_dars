@@ -7,7 +7,10 @@ import user from "../../5-darss/src/assets/user.png"
 import Hero2 from "./components/hero2/Hero2"
 import Carta from "./components/carta/Carta"
 import yes from "../../5-darss/src/assets/card.png"
-import illus from "../../5-darss/src/assets/illus"
+import illus from "../../5-darss/src/assets/illus.png"
+import Cartaa from "../../5-darss/src/assets/cartaa.png"
+import Sponsored from "../../5-darss/src/assets/Sponsored.png"
+import Footer from "./components/footer/Footer"
 
 const nav_menu =[
   {
@@ -59,6 +62,27 @@ const hero22="We Provide Many Features You Can Use"
 const hero3="You can explore the features that we provide with fun and have their own functions each feature."
 const hero4="We Provide Many Features You Can Use"
 
+
+// carta
+const text2="Huge Global Network of Fast VPN"
+const paragrf2="See LaslesVPN everywhere to make it easier for you when you move locations."
+
+
+// footer
+const text3="LaslesVPN is a private virtual network that has unique features and has high security."
+const paragrf3="©2020LaslesVPN"
+const ul="Product"
+const li=[
+
+  {textsa:"Download "},
+  {textsa:"Pricing"},
+  {textsa:"Locations"},
+  {textsa:"Server"},
+  {textsa:"Countries"},
+  {textsa:"Blog"}
+]
+
+
 function App() {
 
   return (
@@ -66,8 +90,9 @@ function App() {
       <Header logo={logo} navLink={nav_menu} nav_btns={btns} />
       <Hero text={text} btn={btn} paragrf={paragrf} heroLogo={heroLogo}/>
       <Banner bannerText={bannerText} user={user}/>
-      <Hero2 card={yes} hero22={hero22}  hero22={hero3} hero4={hero4}/>
-      <Carta/>
+      <Hero2 card={yes} hero22={hero22}  hero3={hero3} hero4={hero4} illus={illus}/>
+      <Carta Cartaa={Cartaa} Sponsored={Sponsored} text2={text2} paragrf2={paragrf2}/>
+      <Footer logo={logo} text3={text3} paragrf3={paragrf3} ul={ul} li={li}/>
     </>
   )
 }
